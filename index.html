@@ -780,13 +780,13 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
     </div>
   
 <script>window.ZAPPY_PRODUCTS_LISTING_PATH = "/products";</script>
-<script>window.ZAPPY_WEBSITE_ID = "165c488a-b6b4-4b11-b7e8-ce087245a4d7";window.ZAPPY_API_BASE = "https://api.zappy5.com"</script><a class="skip-link" href="#main">דלג לתוכן הראשי</a>
+<script>window.ZAPPY_WEBSITE_ID = "165c488a-b6b4-4b11-b7e8-ce087245a4d7";window.ZAPPY_API_BASE = (window.location.pathname.includes('/preview') ? window.location.origin : "https://api.zappy5.com");</script><a class="skip-link" href="#main">דלג לתוכן הראשי</a>
   <nav class="navbar">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
-    <svg style="display:block !important" class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
+    <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
       <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
     </svg>
-    <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display:none !important">
+    <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display: none;">
       <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
     </svg>
   </button>
@@ -1293,16 +1293,16 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
 </script>
   
   <main id="main">
-    <section data-band-index="0" class="index-hero-section" data-layout-spec="בית-hero" data-hero-treatment="fade-bleed" style="--hero-fade-color: var(--bg-light);" data-hero-type="fullscreen-scrim">
-  <img loading="eager" fetchpriority="high" class="hero-fade-img" data-hero-bg="true" data-placeholder="index-hero-image-1" data-context="Bright studio closeup of manicured hands holding a small elegant box of press-on nails with nail glue and a mini file arranged on a soft pink surface. The hands are on the right side of the frame, leaving the left side clean for text overlay. Soft natural lighting, polished beauty aesthetic, rose-gold accents on the product box." width="1200" height="800" src="/assets/site-image-index-hero-image-1.webp" alt="ציפורניים להדבקה מעוצבות בקופסה אלגנטית" decoding="async" />
+    <section data-band-index="0" class="index-hero-section" data-layout-spec="בית-hero" data-hero-treatment="fade-bleed" style="--hero-fade-color: var(--bg-light);" data-hero-type="fullscreen-scrim" id="index-hero-section">
+  <img loading="eager" fetchpriority="high" class="hero-fade-img" data-hero-bg="true" data-placeholder="index-hero-image-1" data-context="Bright studio closeup of manicured hands holding a small elegant box of press-on nails with nail glue and a mini file arranged on a soft pink surface. The hands are on the right side of the frame, leaving the left side clean for text overlay. Soft natural lighting, polished beauty aesthetic, rose-gold accents on the product box." width="1200" height="800" src="/assets/site-image-index-hero-image-1.webp" alt="ציפורניים להדבקה מעוצבות בקופסה אלגנטית" data-hero-background="true" data-element-type="image" data-element-id="img-1784297595686-6ah0oomup" decoding="async" />
   
   <div class="hero-fade-content">
-    <span class="hero-eyebrow">✨ ציפורניים להדבקה בישראל</span>
-    <h1 class="hero-headline display-xl">ציפורניים מושלמות<br />בלי לצאת מהבית</h1>
+    <p class="zappy-editable"><span class="hero-eyebrow" style="color: rgb(25, 23, 26) !important;">✨ ציפורניים להדבקה בישראל</span>
+    </p><h1 class="hero-headline display-xl">ציפורניים מושלמות<br />בלי לצאת מהבית</h1>
     <h3 class="hero-subtitle">ציפורניים להדבקה מוכנות מראש, בעיצובים מהממים שמתאימים לכל יום, אירוע או סט צילום – פשוט, מהיר ויפה.</h3>
     <div class="hero-cta-row">
-      <a href="#contact" class="btn-primary">להזמנה אישית</a>
-      <a href="#how-it-works" class="btn-secondary">איך זה עובד?</a>
+      <a href="/contact" class="btn btn-outline btn-secondary" data-element-type="button" data-element-id="btn-1784297595675-ude4cvwxw" data-native-element="true" style="outline: currentcolor; color: rgb(228, 29, 134) !important; border-color: rgb(228, 29, 134) !important; background-color: transparent !important; background-image: none !important;">להזמנה אישית</a>
+      <a href="/how-it-works" class="btn btn-primary" data-element-type="button" data-element-id="btn-1784297595675-eph4wba69" data-native-element="true" style="outline: currentcolor; color: rgb(255, 255, 255) !important; border-color: rgb(26, 26, 26) !important; background-color: rgb(26, 26, 26) !important; background-image: none !important;">איך זה עובד?</a>
     </div>
   </div>
 
