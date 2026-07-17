@@ -7,73 +7,73 @@
 ## Pages
 
 ### בית
-https://nails-n-y-165c488a.zappy5.app
+https://example.com
 גלי את הקולקציה הכי שווה של ציפורניים להדבקה בישראל! פרס און ניילס אופנתיות שמגיעות עד אלייך הביתה. תוך דקות, בלי תור, בלי מאמץ. כנסי עכשיו ותתחדשי.
 
 ### איך זה עובד
-https://nails-n-y-165c488a.zappy5.app/how-it-works
+https://example.com/how-it-works
 איך זה עובד? קבלי מדריך צעד-אחר-צעד להדבקת ציפורניים מדבקות אופנתיות בקלות ובמהירות. משלב ההכנה ועד למניקור חלומי בבית. תתמכרי לתוצאה המושלמת.
 
 ### גלריה
-https://nails-n-y-165c488a.zappy5.app/gallery
+https://example.com/gallery
 צללי לעולם של נייל ארט להדבקה בבית עם עיצובים מרהיבים. ציפורניים מדבקות אופנתיות לכל סגנון ואירוע. דפדפי בגלריה, תבחרי את הלוק הבא שלך ותתאהבי.
 
 ### אודות
-https://nails-n-y-165c488a.zappy5.app/about
+https://example.com/about
 מי אנחנו? Nails N_Y נולדה מאהבה לנייל ארט נגיש ומדויק. אנו מביאות לך ציפורניים להדבקה בישראל באיכות גבוהה, עם תשוקה לפרטים ורצון להעצים כל אישה. הכירי אותנו.
 
 ### צור קשר
-https://nails-n-y-165c488a.zappy5.app/contact
+https://example.com/contact
 יש לך שאלה על ציפורניים מדבקות אופנתיות? רוצה להתאים סגנון אישי? מלאי את הטופס ונדבר. אנחנו פה כדי להפוך כל מניקור ביתי לחוויה מהסרטים. צרי קשר עוד היום.
 
 ### Products
-https://nails-n-y-165c488a.zappy5.app/products
+https://example.com/products
 המוצרים שלנו - Nails N_Y🪬💅🏻
 
 ### Cart
-https://nails-n-y-165c488a.zappy5.app/cart
+https://example.com/cart
 עגלת הקניות שלך
 
 ### Checkout
-https://nails-n-y-165c488a.zappy5.app/checkout
+https://example.com/checkout
 תשלום
 
 ### Login
-https://nails-n-y-165c488a.zappy5.app/login
+https://example.com/login
 התחברות לקוחות
 
 ### Account
-https://nails-n-y-165c488a.zappy5.app/account
+https://example.com/account
 החשבון שלי
 
 ### Order Success
-https://nails-n-y-165c488a.zappy5.app/order-success
+https://example.com/order-success
 תודה על ההזמנה
 
 ### Product Detail
-https://nails-n-y-165c488a.zappy5.app/product/:slug
+https://example.com/product/:slug
 פרטי המוצר - Nails N_Y🪬💅🏻
 
 ### Category
-https://nails-n-y-165c488a.zappy5.app/category/:slug
+https://example.com/category/:slug
 מוצרים - Nails N_Y🪬💅🏻
 
 ### תודה שפנית אלינו
-https://nails-n-y-165c488a.zappy5.app/thank-you
+https://example.com/thank-you
 Nails N_Y🪬💅🏻 - תודה שפנית אלינו
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://nails-n-y-165c488a.zappy5.app/privacy
+https://example.com/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://nails-n-y-165c488a.zappy5.app/terms
+https://example.com/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://nails-n-y-165c488a.zappy5.app/accessibility
+https://example.com/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
@@ -104,8 +104,8 @@ Beauty & Nail Products
 
 # Machine-readable feeds
 
-- Sitemap (XML): https://nails-n-y-165c488a.zappy5.app/sitemap.xml
-- Robots: https://nails-n-y-165c488a.zappy5.app/robots.txt
-- Flattened page text (for LLMs): https://nails-n-y-165c488a.zappy5.app/llms-full.txt
-- Products (JSON): https://nails-n-y-165c488a.zappy5.app/products.json
-- Products (Google Merchant RSS): https://nails-n-y-165c488a.zappy5.app/product-feed.xml
+- Sitemap (XML): https://example.com/sitemap.xml
+- Robots: https://example.com/robots.txt
+- Flattened page text (for LLMs): https://example.com/llms-full.txt
+- Products (JSON): https://example.com/products.json
+- Products (Google Merchant RSS): https://example.com/product-feed.xml
