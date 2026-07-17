@@ -1429,7 +1429,7 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
   </div>
 </section>
 
-<section class="gallery-details-section" data-layout-spec="גלריה-details">
+<section class="gallery-details-section" data-layout-spec="גלריה-details" id="gallery-details-section">
   <div class="gallery-details-container">
     <!-- Content Column -->
     <div class="gallery-details-content">
@@ -1439,7 +1439,7 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
       </p>
       
       <ul class="gallery-details-list">
-        <li class="gallery-details-item">
+        <li class="gallery-details-item" data-grid-item-index="0">
           <div class="gallery-details-icon-wrapper">
             <svg class="gallery-details-icon" data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M12 2C6.49 2 2 6.49 2 12C2 17.51 6.49 22 12 22C17.51 22 22 17.51 22 12C22 6.49 17.51 2 12 2ZM16.78 9.7L11.11 15.37C10.97 15.51 10.78 15.59 10.58 15.59C10.38 15.59 10.19 15.51 10.05 15.37L7.22 12.54C6.93 12.25 6.93 11.77 7.22 11.48C7.51 11.19 7.99 11.19 8.28 11.48L10.58 13.78L15.72 8.64C16.01 8.35 16.49 8.35 16.78 8.64C17.07 8.93 17.07 9.4 16.78 9.7Z" fill="currentColor"/>
@@ -1451,7 +1451,7 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
           </div>
         </li>
         
-        <li class="gallery-details-item">
+        <li class="gallery-details-item" data-grid-item-index="1">
           <div class="gallery-details-icon-wrapper">
             <svg class="gallery-details-icon" data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M12 2C6.49 2 2 6.49 2 12C2 17.51 6.49 22 12 22C17.51 22 22 17.51 22 12C22 6.49 17.51 2 12 2ZM16.78 9.7L11.11 15.37C10.97 15.51 10.78 15.59 10.58 15.59C10.38 15.59 10.19 15.51 10.05 15.37L7.22 12.54C6.93 12.25 6.93 11.77 7.22 11.48C7.51 11.19 7.99 11.19 8.28 11.48L10.58 13.78L15.72 8.64C16.01 8.35 16.49 8.35 16.78 8.64C17.07 8.93 17.07 9.4 16.78 9.7Z" fill="currentColor"/>
@@ -1463,7 +1463,7 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
           </div>
         </li>
         
-        <li class="gallery-details-item">
+        <li class="gallery-details-item" data-grid-item-index="2">
           <div class="gallery-details-icon-wrapper">
             <svg class="gallery-details-icon" data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M12 2C6.49 2 2 6.49 2 12C2 17.51 6.49 22 12 22C17.51 22 22 17.51 22 12C22 6.49 17.51 2 12 2ZM16.78 9.7L11.11 15.37C10.97 15.51 10.78 15.59 10.58 15.59C10.38 15.59 10.19 15.51 10.05 15.37L7.22 12.54C6.93 12.25 6.93 11.77 7.22 11.48C7.51 11.19 7.99 11.19 8.28 11.48L10.58 13.78L15.72 8.64C16.01 8.35 16.49 8.35 16.78 8.64C17.07 8.93 17.07 9.4 16.78 9.7Z" fill="currentColor"/>
@@ -1475,7 +1475,7 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
           </div>
         </li>
         
-        <li class="gallery-details-item">
+        <li class="gallery-details-item" data-grid-item-index="3">
           <div class="gallery-details-icon-wrapper">
             <svg class="gallery-details-icon" data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M12 2C6.49 2 2 6.49 2 12C2 17.51 6.49 22 12 22C17.51 22 22 17.51 22 12C22 6.49 17.51 2 12 2ZM16.78 9.7L11.11 15.37C10.97 15.51 10.78 15.59 10.58 15.59C10.38 15.59 10.19 15.51 10.05 15.37L7.22 12.54C6.93 12.25 6.93 11.77 7.22 11.48C7.51 11.19 7.99 11.19 8.28 11.48L10.58 13.78L15.72 8.64C16.01 8.35 16.49 8.35 16.78 8.64C17.07 8.93 17.07 9.4 16.78 9.7Z" fill="currentColor"/>
@@ -1491,20 +1491,26 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
     
     <!-- Image Grid Column -->
     <div class="gallery-details-grid">
-      <div class="gallery-details-card">
-        <img loading="lazy" decoding="async" data-placeholder="gallery-details-image-1" data-context="Extreme close-up macro photograph of a single press-on nail showing the perfect cuticle line edge where the artificial nail meets the natural nail bed. Soft pink and nude tones, beauty studio lighting, sharp focus on the cuticle area." width="600" height="400" src="/assets/site-image-gallery-details-image-1.webp" alt="קו קוטיקולה מושלם בציפורן להדבקה" class="gallery-details-img" fetchpriority="low" />
+      <div class="gallery-details-card" style="background-color: rgb(255, 255, 255) !important; grid-column-start: auto !important; grid-column-end: auto !important; grid-row-start: auto !important; grid-row-end: auto !important;" data-grid-item-index="0">
+        <img loading="lazy" decoding="async" data-placeholder="image-placeholder" data-context="Extreme close-up macro photograph of a single press-on nail showing the perfect cuticle line edge where the artificial nail meets the natural nail bed. Soft pink and nude tones, beauty studio lighting, sharp focus on the cuticle area." width="600" height="400" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="Image placeholder" class="gallery-details-img" data-element-type="image" data-element-id="new-grid-img-1784298487924-0-ehm4t0ql5" style="cursor: pointer;" id="new-grid-img-1784298487924-0-ehm4t0ql5" data-ai-slot="grid-item-image" data-zappy-base64-stripped="true" fetchpriority="low" />
+        <span class="gallery-details-label">טקסט כאן</span>
+      </div><div class="gallery-details-card" style="background-color: rgb(255, 255, 255) !important; grid-column-start: auto !important; grid-column-end: auto !important; grid-row-start: auto !important; grid-row-end: auto !important;" data-grid-item-index="1">
+        <img loading="lazy" decoding="async" data-placeholder="image-placeholder" data-context="Extreme close-up macro photograph of a single press-on nail showing the perfect cuticle line edge where the artificial nail meets the natural nail bed. Soft pink and nude tones, beauty studio lighting, sharp focus on the cuticle area." width="600" height="400" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="Image placeholder" class="gallery-details-img" data-element-type="image" data-element-id="new-grid-img-1784298486543-0-uf5xm6xyp" style="cursor: pointer;" id="new-grid-img-1784298486543-0-uf5xm6xyp" data-ai-slot="grid-item-image" data-zappy-base64-stripped="true" fetchpriority="low" />
+        <span class="gallery-details-label">טקסט כאן</span>
+      </div><div class="gallery-details-card" data-grid-item-index="2">
+        <img loading="lazy" decoding="async" data-placeholder="gallery-details-image-1" data-context="Extreme close-up macro photograph of a single press-on nail showing the perfect cuticle line edge where the artificial nail meets the natural nail bed. Soft pink and nude tones, beauty studio lighting, sharp focus on the cuticle area." width="600" height="400" src="/assets/site-image-gallery-details-image-1.webp" alt="קו קוטיקולה מושלם בציפורן להדבקה" class="gallery-details-img" data-element-type="image" data-element-id="img-1784298456610-3y63vkheb" fetchpriority="low" />
         <span class="gallery-details-label">קו קוטיקולה</span>
       </div>
-      <div class="gallery-details-card">
-        <img loading="lazy" decoding="async" data-placeholder="gallery-details-image-2" data-context="Side profile close-up of a curved press-on nail on a white background, highlighting the natural C-curve and arch. Elegant nude pink color, soft shadow, beauty product photography style." width="600" height="400" src="/assets/site-image-gallery-details-image-2.webp" alt="קשת וקימור ציפורן להדבקה" class="gallery-details-img" fetchpriority="low" />
+      <div class="gallery-details-card" data-grid-item-index="3">
+        <img loading="lazy" decoding="async" data-placeholder="gallery-details-image-2" data-context="Side profile close-up of a curved press-on nail on a white background, highlighting the natural C-curve and arch. Elegant nude pink color, soft shadow, beauty product photography style." width="600" height="400" src="/assets/site-image-gallery-details-image-2.webp" alt="קשת וקימור ציפורן להדבקה" class="gallery-details-img" data-element-type="image" data-element-id="img-1784298456610-udelntr31" fetchpriority="low" />
         <span class="gallery-details-label">קשת וקימור</span>
       </div>
-      <div class="gallery-details-card">
-        <img loading="lazy" decoding="async" data-placeholder="gallery-details-image-3" data-context="Ultra-close-up detail shot of a glossy press-on nail surface showing brilliant shine, smooth even color, and flawless top coat finish. Reflective light catching the glossy surface, beauty macro photography." width="600" height="400" src="/assets/site-image-gallery-details-image-3.webp" alt="גימור מבריק בציפורן להדבקה" class="gallery-details-img" fetchpriority="low" />
+      <div class="gallery-details-card" data-grid-item-index="4">
+        <img loading="lazy" decoding="async" data-placeholder="gallery-details-image-3" data-context="Ultra-close-up detail shot of a glossy press-on nail surface showing brilliant shine, smooth even color, and flawless top coat finish. Reflective light catching the glossy surface, beauty macro photography." width="600" height="400" src="/assets/site-image-gallery-details-image-3.webp" alt="גימור מבריק בציפורן להדבקה" class="gallery-details-img" data-element-type="image" data-element-id="img-1784298456610-a5h9p40ih" fetchpriority="low" />
         <span class="gallery-details-label">גימור וברק</span>
       </div>
-      <div class="gallery-details-card">
-        <img loading="lazy" decoding="async" data-placeholder="gallery-details-image-4" data-context="Collection of press-on nails in different shapes arranged on a soft pink surface: almond, coffin, stiletto, and round shapes displayed elegantly. Beauty product flat lay with rose gold accents, clean composition." width="600" height="400" src="/assets/site-image-gallery-details-image-4.webp" alt="צורות שונות של ציפורניים להדבקה" class="gallery-details-img" fetchpriority="low" />
+      <div class="gallery-details-card" data-grid-item-index="5">
+        <img loading="lazy" decoding="async" data-placeholder="gallery-details-image-4" data-context="Collection of press-on nails in different shapes arranged on a soft pink surface: almond, coffin, stiletto, and round shapes displayed elegantly. Beauty product flat lay with rose gold accents, clean composition." width="600" height="400" src="/assets/site-image-gallery-details-image-4.webp" alt="צורות שונות של ציפורניים להדבקה" class="gallery-details-img" data-element-type="image" data-element-id="img-1784298456610-g1g8k5pgq" fetchpriority="low" />
         <span class="gallery-details-label">צורה ואורך</span>
       </div>
     </div>
