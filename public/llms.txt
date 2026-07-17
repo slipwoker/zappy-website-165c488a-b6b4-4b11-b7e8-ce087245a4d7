@@ -1,0 +1,111 @@
+# Nails N_Y🪬💅🏻 — Generative Engine Optimization Map
+
+> A business specializing in press-on nails, offering ready-to-apply artificial nails as a beauty product. The brand operates in the nail art and beauty accessories space, catering to customers seeking stylish, convenient nail solutions without a salon visit.
+
+---
+
+## Pages
+
+### בית
+https://nails-n-y-165c488a.zappy5.app
+גלי את הקולקציה הכי שווה של ציפורניים להדבקה בישראל! פרס און ניילס אופנתיות שמגיעות עד אלייך הביתה. תוך דקות, בלי תור, בלי מאמץ. כנסי עכשיו ותתחדשי.
+
+### איך זה עובד
+https://nails-n-y-165c488a.zappy5.app/how-it-works
+איך זה עובד? קבלי מדריך צעד-אחר-צעד להדבקת ציפורניים מדבקות אופנתיות בקלות ובמהירות. משלב ההכנה ועד למניקור חלומי בבית. תתמכרי לתוצאה המושלמת.
+
+### גלריה
+https://nails-n-y-165c488a.zappy5.app/gallery
+צללי לעולם של נייל ארט להדבקה בבית עם עיצובים מרהיבים. ציפורניים מדבקות אופנתיות לכל סגנון ואירוע. דפדפי בגלריה, תבחרי את הלוק הבא שלך ותתאהבי.
+
+### אודות
+https://nails-n-y-165c488a.zappy5.app/about
+מי אנחנו? Nails N_Y נולדה מאהבה לנייל ארט נגיש ומדויק. אנו מביאות לך ציפורניים להדבקה בישראל באיכות גבוהה, עם תשוקה לפרטים ורצון להעצים כל אישה. הכירי אותנו.
+
+### צור קשר
+https://nails-n-y-165c488a.zappy5.app/contact
+יש לך שאלה על ציפורניים מדבקות אופנתיות? רוצה להתאים סגנון אישי? מלאי את הטופס ונדבר. אנחנו פה כדי להפוך כל מניקור ביתי לחוויה מהסרטים. צרי קשר עוד היום.
+
+### Products
+https://nails-n-y-165c488a.zappy5.app/products
+המוצרים שלנו - Nails N_Y🪬💅🏻
+
+### Cart
+https://nails-n-y-165c488a.zappy5.app/cart
+עגלת הקניות שלך
+
+### Checkout
+https://nails-n-y-165c488a.zappy5.app/checkout
+תשלום
+
+### Login
+https://nails-n-y-165c488a.zappy5.app/login
+התחברות לקוחות
+
+### Account
+https://nails-n-y-165c488a.zappy5.app/account
+החשבון שלי
+
+### Order Success
+https://nails-n-y-165c488a.zappy5.app/order-success
+תודה על ההזמנה
+
+### Product Detail
+https://nails-n-y-165c488a.zappy5.app/product/:slug
+פרטי המוצר - Nails N_Y🪬💅🏻
+
+### Category
+https://nails-n-y-165c488a.zappy5.app/category/:slug
+מוצרים - Nails N_Y🪬💅🏻
+
+### תודה שפנית אלינו
+https://nails-n-y-165c488a.zappy5.app/thank-you
+Nails N_Y🪬💅🏻 - תודה שפנית אלינו
+
+## Legal & Policy
+
+### Privacy Policy
+https://nails-n-y-165c488a.zappy5.app/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://nails-n-y-165c488a.zappy5.app/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://nails-n-y-165c488a.zappy5.app/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+## Products
+
+_No products are currently configured._
+
+---
+
+# Business Context (for LLM understanding)
+
+## About Nails N_Y🪬💅🏻
+A business specializing in press-on nails, offering ready-to-apply artificial nails as a beauty product. The brand operates in the nail art and beauty accessories space, catering to customers seeking stylish, convenient nail solutions without a salon visit.
+
+## Services/Products
+- ציפורניים להדבקה
+
+## Target Audience
+- חובבות אופנה צעירות
+- מקצועניות עסוקות
+- בלוגריות ויוצרות תוכן יופי
+
+## Industry
+Beauty & Nail Products
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://nails-n-y-165c488a.zappy5.app/sitemap.xml
+- Robots: https://nails-n-y-165c488a.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://nails-n-y-165c488a.zappy5.app/llms-full.txt
+- Products (JSON): https://nails-n-y-165c488a.zappy5.app/products.json
+- Products (Google Merchant RSS): https://nails-n-y-165c488a.zappy5.app/product-feed.xml
